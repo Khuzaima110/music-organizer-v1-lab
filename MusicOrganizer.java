@@ -29,6 +29,10 @@ public class MusicOrganizer
         files.add(filename);
     }
     
+    public int checkIndex();{
+        
+    }
+    
     /**
      * Return the number of files in the collection.
      * @return The number of files in the collection.
@@ -61,3 +65,6 @@ public class MusicOrganizer
         }
     }
 }
+   
+
+
