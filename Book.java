@@ -1,24 +1,20 @@
 import java.util.ArrayList;
-
 /**
- * A class to hold details of audio files.
- * 
- * @author David J. Barnes and Michael Kölling
- * @version 7.0
+ * Write a description of class Book here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
  */
-public class MusicOrganizer
+public class Book
 {
-    // An ArrayList for storing the file names of music files.
     private ArrayList<String> files;
     private ArrayList<Book> library;
-    public ArrayList<Student> cs101;
-    private ArrayList<MusicTracks> Tracks;
-    /**
-     * Create a MusicOrganizer
-     */
-    public MusicOrganizer()
+
+    // instance variables - replace the example below with your own
+    private Book()
     {
         files = new ArrayList<>();
+        library = new ArrayList<>();
     }
     /**
      * Add a file to the collection.

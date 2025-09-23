@@ -14,5 +14,8 @@ To start:
 Create a MusicOrganizer object on the object bench.
 Use its methods to add, show, and remove files.
 
-Q2: 
+Q2: Give us an error code because there is no file to remove
 
+Q3: after removing file0 system replaced file 0 with file1
+
+Q4:
