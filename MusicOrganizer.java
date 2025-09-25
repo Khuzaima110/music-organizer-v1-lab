@@ -29,10 +29,21 @@ public class MusicOrganizer
         files.add(filename);
     }
     
-    public int checkIndex();{
-        
+    public void checkIndex(int index){
+        if(index >= 0 && index < files.size()) {
+            // valid, do not print
+        } else {
+            System.out.println("The valid range is from 0 to "+ (files.size()-1));
+        }
     }
     
+    public boolean validIndex(int index){
+        if(index >= 0 && index < files.size()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
     /**
      * Return the number of files in the collection.
      * @return The number of files in the collection.

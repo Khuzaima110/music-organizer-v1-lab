@@ -30,4 +30,6 @@ Q12: public void removeitem(3);
 
 Q13: index 5
 
-Q14; 
+Q14: 
+
+Q15: 
